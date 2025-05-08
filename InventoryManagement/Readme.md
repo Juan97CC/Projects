@@ -35,7 +35,7 @@ DataStructGame is a console-based inventory and shop management game written in 
 - Manages an inventory of weapons using an array-based hash table.
 - Handles adding, searching, and deleting weapons from the shop.
 
-### `Assignment2_ds`
+### `Main`
 - The main entry point for the game.
 - Contains the game’s menu system and handles user interactions such as buying and adding weapons, viewing the inventory, and managing the shop.
 
