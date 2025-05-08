@@ -1,0 +1,113 @@
+/*Chat Room Style*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+    font-family: "Inter", "Helvetica Neue";
+    font-size: larger;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: rgb(255, 240, 165);
+    margin: 0;
+}
+
+
+#availableChats {
+    list-style-type: none;
+    text-decoration: solid;
+    margin: 7px;
+}
+
+#availableChats li {
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin: 2px;
+    padding: 7px;
+}
+
+#current-room-text-display {
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: auto;
+}
+
+#submit {
+    cursor: pointer;
+    width: 80px;
+    height: 50px;
+}
+
+.userText {
+    font-weight: 300;
+    width: 80%;
+    text-align: left;
+    font-size: 24px;
+    line-height: 24px;
+    color: black;
+    margin: 2px;
+}
+
+.serverText {
+    width: 80%;
+    font-size: 24px;
+    text-align: left;
+    margin: 2px;
+    color: green;
+}
+
+#chat-room-container {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: left;
+    padding: 1rem;
+    min-height: 90vh;
+    width: 95vw;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    overflow-y: auto;
+    font-size: 25px;
+}
+
+.input-chat-text-holder {
+    padding-left: 1em;
+    height: 50px;
+    width: 90vw;
+    box-sizing: border-box;
+    font-family: "Inter";
+    font-size: 25px;
+    border-top-left-radius: 15px;
+    border: none;
+    background: rgb(219, 219, 219);
+}
+
+#send-button {
+    border: none;
+    width: 5vw;
+    height: 50px;
+    cursor: pointer;
+    box-sizing: border-box;
+    border-top-right-radius: 15px;
+}
+
+#send-button:hover {
+    background-color: #78d4ff;
+}
+
+#input-chat-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#room-code-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+}

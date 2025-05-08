@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>ChatAway</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta property="og:title" content="">
+    <meta property="og:type" content="">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
+
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="icon.png">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+    <header>
+        <img src="texting.PNG" alt="Header Image">
+        <h1>ChatAway</h1>
+
+        <!-- Nav Buttons -->
+        <div class="button-container">
+            <button class="menu-button whitebutton" onclick="window.location.href='index.html'">Home Page</button>
+            <button id="createbutton menu-button" onclick="newRoom()">Create Room</button>
+            <div class="dropdown">
+                <button class="dropbtn menu-button">Your Rooms</button>
+                <div class="dropdown-content">
+                    <ul id="availableChats">
+                    </ul>
+                </div>
+            </div>
+            <button class="menu-button whitebutton" onclick="window.location.href='about.html'">About Page</button>
+        </div>
+    </header>
+    <main>
+        <div class="container big-text">
+            <ul>
+                About the <span class="bold-text beautiful-text">ChatAway</span>
+                team
+            </ul>
+        </div>
+
+        <!-- Team Info -->
+        <div class="team-container">
+            <div class="image-container">
+                <img class="img-rounded" src="Anth.jpg" alt="Image 1">
+                <p class="bold-text">Anthony Ciceu</p>
+                <p class="thin-text">100787198</p>
+                <p>Front-End Developer</p>
+            </div>
+
+            <div class="image-container">
+                <img class="img-rounded" src="Ambrose.jpg" alt="Image 1">
+                <p class="bold-text">Ambrose Yip</p>
+                <p class="thin-text">100861372</p>
+                <p>Front-End Developer</p>
+            </div>
+
+            <div class="image-container">
+                <img class="img-rounded" src="Sury.png" alt="Image 1">
+                <p class="bold-text">Suryansh Saroch</p>
+                <p class="thin-text">100869700</p>
+                <p>Back-End Developer</p>
+            </div>
+
+            <div class="image-container">
+                <img class="img-rounded" src="Juan.jpg" alt="Image 1">
+                <p class="bold-text">Juan Consuegra</p>
+                <p class="thin-text">100731286</p>
+                <p>Back-End Developer</p>
+            </div>
+        </div>
+    </main>
+
+
+
+    <footer>
+        <p>Copyright &copy; 2024 Ciceu, Yip, Saroch, Consuegra</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+
+    <script>
+        window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+        ga('create', 'UA-XXXXX-Y', 'auto'); ga('set', 'anonymizeIp', true); ga('set', 'transport', 'beacon'); ga('send', 'pageview')
+    </script>
+    <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
